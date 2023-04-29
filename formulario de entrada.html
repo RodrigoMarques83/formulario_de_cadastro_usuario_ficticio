@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="Formulário de Cadastro.css">
+    <meta charset="UTF-8">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h3>Cadastro de usuário</h3>
+    <form action="">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="Nome" name="Nome">   
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <div>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" id="birthday"   name="birthday"> -
+            <label for="photo">Foto:</label> 
+            <input type="file" id="photo" name="photo">
+        </div>
+
+        <div>
+            <label for="nationality">Nacionalidade:</label>
+            <select name="nationality" id="nationality">
+                <option value="american">Americana</option>
+                <option value="russian">Russa</option>
+                <option value="brasilian">Brasileira</option>
+            </select>
+            Genero:
+            <label for="female">F</label>
+            <input type="radio" name="gender" id="gender" value="female">
+            <label for="male">M</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+
+    </form>
+   
+</body>
+</html>
